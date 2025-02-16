@@ -14,7 +14,7 @@
 .globl main
 .type	main, @function 
 main:
-    # Enter
+    # Enter the function
     pushq %rbp
     movq %rsp, %rbp  
     
