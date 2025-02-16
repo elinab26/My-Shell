@@ -11,7 +11,7 @@ all: $(EXEC)
 
 # compile
 $(EXEC): $(SRC)
-	$(CC)  $(SRC) -o $(EXEC)
+	$(CC) -no-pie $(SRC) -o $(EXEC)
 
 #clean
 clean:
