@@ -5,7 +5,7 @@
     shell: .string "myshell> "
     shellLen= .-shell
     path: .string "/bin/"
-
+gg
 .section .bss
     buffer: .space 1024
     buffercopy: .space 1024
