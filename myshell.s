@@ -3,7 +3,6 @@
     error: .string "Error: No such file or directory\n"
     err_exec: .string "Error: Permission denied\n"
     shell: .string "myshell> "
-    shellLen= .-shell
     path: .string "/bin/"
 
 .section .bss
